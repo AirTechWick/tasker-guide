@@ -9,22 +9,24 @@
       
       
       
+        <link rel="prev" href="../tasker-tut/">
       
-        <link rel="next" href="http-req-tut/">
       
-      <link rel="icon" href="images/icon/favicon-16x16.png">
+        <link rel="next" href="../export-tut/">
+      
+      <link rel="icon" href="../images/icon/favicon-16x16.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.15">
     
     
       
-        <title>Tasker for Ricoh Theta</title>
+        <title>Add Commands to Homescreen - Tasker for Ricoh Theta</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.113286f1.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.113286f1.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
       
       
 
@@ -40,7 +42,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -76,11 +78,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#using-tasker-on-android-to-run-api-commands-automatically" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -91,9 +88,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Tasker for Ricoh Theta" class="md-header__button md-logo" aria-label="Tasker for Ricoh Theta" data-md-component="logo">
+    <a href=".." title="Tasker for Ricoh Theta" class="md-header__button md-logo" aria-label="Tasker for Ricoh Theta" data-md-component="logo">
       
-  <img src="images/icon/green-logo-192x192.png" alt="logo">
+  <img src="../images/icon/green-logo-192x192.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Add Commands to Homescreen
             
           </span>
         </div>
@@ -176,15 +173,60 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Tasker for Ricoh Theta" class="md-nav__button md-logo" aria-label="Tasker for Ricoh Theta" data-md-component="logo">
+    <a href=".." title="Tasker for Ricoh Theta" class="md-nav__button md-logo" aria-label="Tasker for Ricoh Theta" data-md-component="logo">
       
-  <img src="images/icon/green-logo-192x192.png" alt="logo">
+  <img src="../images/icon/green-logo-192x192.png" alt="logo">
 
     </a>
     Tasker for Ricoh Theta
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../http-req-tut/" class="md-nav__link">
+        Deep-Linking URL
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tasker-tut/" class="md-nav__link">
+        Run Tasker Commands
+      </a>
+    </li>
+  
+
     
       
       
@@ -200,117 +242,11 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
-        Home
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    Summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#camera" class="md-nav__link">
-    Camera
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#device-connected-to-camera" class="md-nav__link">
-    Device connected to Camera
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apps-used" class="md-nav__link">
-    Apps Used
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-steps" class="md-nav__link">
-    General Steps
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="http-req-tut/" class="md-nav__link">
-        Deep-Linking URL
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tasker-tut/" class="md-nav__link">
-        Run Tasker Commands
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="homescreen-tut/" class="md-nav__link">
+      <a href="./" class="md-nav__link md-nav__link--active">
         Add Commands to Homescreen
       </a>
+      
     </li>
   
 
@@ -323,7 +259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="export-tut/" class="md-nav__link">
+      <a href="../export-tut/" class="md-nav__link">
         Exporting Task as a Link
       </a>
     </li>
@@ -347,51 +283,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    Summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#camera" class="md-nav__link">
-    Camera
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#device-connected-to-camera" class="md-nav__link">
-    Device connected to Camera
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apps-used" class="md-nav__link">
-    Apps Used
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#general-steps" class="md-nav__link">
-    General Steps
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -406,50 +297,9 @@
                   
 
 
-<h1 id="using-tasker-on-android-to-run-api-commands-automatically">Using Tasker on Android to Run API Commands automatically</h1>
-<p><img alt="ricohicon" src="images/icon/green-logo-96x96.png" />
-<img alt="taskericon" src="images/icon/android-chrome-96x96.png" />
-<img alt="httpreqicon" src="images/icon/httpreqshort96.png" /></p>
-<h2 id="summary">Summary</h2>
-<p>Today, I’m going to explain how to test the RICOH THETA X model using the free mobile app <a href="https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts">HTTP Request Shortcuts</a> and the paid mobile app <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en_US&amp;gl=US">Tasker</a> for $3.49. With this combination you are able to take pictures and configure camera settings in the field with a custom workflow using an Android phone or tablet where you may be putting the camera in a car with one hand and holding the phone in your other hand. Similar apps are also available for iOS.</p>
-<p>This may be an easy way to prototype workflows specific to the industry you are working in, before doing final development on your app.</p>
-<p>To send HTTP Requests with HTTP Request Shortcuts I followed this article <a href="https://community.theta360.guide/t/using-the-theta-web-api-without-programming-remote-photo-app/4796">Using the THETA Web API without programming (Remote photo app)</a> and if you need further information to reference I have an article testing the RICOH THETA Web API with HTTP Requests Shortcuts here <a href="https://community.theta360.guide/t/testing-ricoh-theta-web-api-via-android-mobile-app/8797">Testing RICOH THETA Web API via Android Mobile App</a>.</p>
-<p>Tasker is going to be used to execute a set of API commands automatically from HTTP Request Shortcuts and group them together so we can organize a set of custom API requests into one group and press one button to set them off sequentially. We can also set that group of commands from tasker into a home screen shortcut!</p>
-<h2 id="camera">Camera</h2>
-<pre><code>Name: RICOH THETA X
-Firmware: 1.41.0
+  <h1>Add Commands to Homescreen</h1>
 
-Reset camera
-    Can be done through LCD on camera or using the API
 
-Delete all media on camera
-    Can use USB cable, connect to Windows, delete through Windows explorer
-</code></pre>
-<h2 id="device-connected-to-camera">Device connected to Camera</h2>
-<pre><code>Device: Samsung Galaxy Tab A8
-Model Name: SM-X200
-Android Version: 13
-</code></pre>
-<h2 id="apps-used">Apps Used</h2>
-<ul>
-<li><a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en_US&amp;gl=US">Tasker</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts">HTTP Request Shortcuts</a></li>
-</ul>
-<h2 id="general-steps">General Steps</h2>
-<ol>
-<li>
-<p>Get Deep-linking URL from HTTP Shortcuts app</p>
-</li>
-<li>
-<p>Use Tasker App to Run Commands Sequentially</p>
-</li>
-<li>
-<p>Add Tasker Commands to Device Home Screen</p>
-</li>
-<li>
-<p>Exporting Task as Link to share with others</p>
-</li>
-</ol>
 
 
   
@@ -489,10 +339,10 @@ Android Version: 13
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.2a6f1dda.min.js"></script>
+      <script src="../assets/javascripts/bundle.2a6f1dda.min.js"></script>
       
     
   </body>
